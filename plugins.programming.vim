@@ -305,6 +305,27 @@
 "  xnoremap <Leader><Leader>c :Codi!!<CR>
 """ }}}
 
+""" Plugin: arduino {{{
+  Plug 'stevearc/vim-arduino'
+	nnoremap <buffer> <leader>am :ArduinoVerify<CR>
+	nnoremap <buffer> <leader>au :ArduinoUpload<CR>
+	nnoremap <buffer> <leader>ad :ArduinoUploadAndSerial<CR>
+  nnoremap <buffer> <leader>as :ArduinoSerial<CR>
+	nnoremap <buffer> <leader>ab :ArduinoChooseBoard<CR>
+	nnoremap <buffer> <leader>ap :ArduinoChooseProgrammer<CR>
+  let g:arduino_serial_baud = 115200
+  let g:arduino_serial_cmd = 'minicom'
+  let g:arduino_use_slime = 0
+  let g:arduino_serial_tmux = 'split-window -d'
+  let g:arduino_verify_tmux = 'split-window -d -p20'
+  let g:arduino_upload_tmux = 'split-window -d -p20'
+"}}}
+
+
+" Plugin: vim-slime {{{
+  Plug 'jpalardy/vim-slime'
+  let g:slime_target = "tmux"
+" }}}
 
 " Markdown
 "" Plugin: Goyo {{{
