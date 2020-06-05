@@ -114,3 +114,7 @@
   "nnoremap <silent> <F11> :NERDTreeTabsToggle<CR>
   nnoremap <silent> <leader>e :NERDTreeTabsToggle<CR>
 "" }}}
+
+"" Plugin: vim-abolish {{{
+  Plug 'tpope/vim-abolish'
+  "" }}}
