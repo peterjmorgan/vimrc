@@ -118,3 +118,8 @@
 "" Plugin: vim-abolish {{{
   Plug 'tpope/vim-abolish'
   "" }}}
+
+"" Plugin: vim-gutentags {{{
+  Plug 'ludovicchabant/vim-gutentags'
+  "" }}}
+
