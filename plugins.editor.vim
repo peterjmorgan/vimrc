@@ -108,3 +108,8 @@
   " Enable it with options(+hl, -hl, +cc, -cc)
   " autocmd FileType * LocalIndentGuide +hl +cc
 "" }}}
+
+"" Plugin: autoread  {{{
+  " Check if file was modified under us
+  Plug 'djoshea/vim-autoread'
+"" }}}

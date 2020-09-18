@@ -311,7 +311,14 @@
 "  xnoremap <Leader><Leader>c :Codi!!<CR>
 """ }}}
 
-
+""" Plugin: vim-arduino {{{
+  Plug 'stevearc/vim-arduino'
+nnoremap <buffer> <leader>am :ArduinoVerify<CR>
+nnoremap <buffer> <leader>au :ArduinoUpload<CR>
+nnoremap <buffer> <leader>ad :ArduinoUploadAndSerial<CR>
+nnoremap <buffer> <leader>ab :ArduinoChooseBoard<CR>
+nnoremap <buffer> <leader>ap :ArduinoChooseProgrammer<CR>
+""" }}}
 
 " "" Plugin: Vim Instant Markdown {{{
   " " TODO: somewhat intersting, but depends on nodejs

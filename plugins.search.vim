@@ -123,3 +123,11 @@
   Plug 'ludovicchabant/vim-gutentags'
   "" }}}
 
+"" Plugin: unite {{{
+  Plug 'Shougo/unite.vim'
+  "" }}}
+
+"" Plugin: vim-codequery {{{
+  Plug 'devjoe/vim-codequery'
+  "" }}}
+
