@@ -153,9 +153,8 @@
   " Run your tests at the speed of thought
   Plug 'janko-m/vim-test'
   " Make test commands execute using other strategy
-  let test#strategy='basic'
-  " Exit after testing with jest
-  let test#javascript#jest#options='--passWithNoTests'
+  let test#strategy='dispatch'
+  let test#python#runner = 'pyunit' "Setting for phylum
   nnoremap <silent> <leader>tf :TestFile<CR>
   nnoremap <silent> <leader>tn :TestNearest<CR>
   nnoremap <silent> <leader>ts :TestSuit<CR>
